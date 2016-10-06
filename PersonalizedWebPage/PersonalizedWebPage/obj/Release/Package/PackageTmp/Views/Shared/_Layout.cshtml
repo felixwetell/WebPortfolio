@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <link href="~/CSS/main.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/main.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="~/font-awesome/css/font-awesome.min.css">
 
     <meta name="viewport" content="width=device-width" />
@@ -26,10 +26,17 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script src="~/js/loader.js"></script>
+
     @RenderSection("stylesheets", false)
 
 </head>
+
 <body>
+    <div class="se-pre-con"></div>
+    
     <div id="nav-bar">
         <a href="~/">
             <div class="nav-bar-item" id="logo">
