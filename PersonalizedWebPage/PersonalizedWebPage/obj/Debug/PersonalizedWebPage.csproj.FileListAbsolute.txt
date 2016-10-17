@@ -61,6 +61,5 @@ C:\Users\Admin\Source\Repos\WebPortfolio\PersonalizedWebPage\PersonalizedWebPage
 C:\Users\Admin\Source\Repos\WebPortfolio\PersonalizedWebPage\PersonalizedWebPage\bin\System.Web.Webpages.Razor.xml
 C:\Users\Admin\Source\Repos\WebPortfolio\PersonalizedWebPage\PersonalizedWebPage\bin\System.Web.Helpers.xml
 C:\Users\Admin\Source\Repos\WebPortfolio\PersonalizedWebPage\PersonalizedWebPage\bin\System.Web.Mvc.xml
-C:\Users\Admin\Source\Repos\WebPortfolio\PersonalizedWebPage\PersonalizedWebPage\obj\Debug\PersonalizedWebPage.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Source\Repos\WebPortfolio\PersonalizedWebPage\PersonalizedWebPage\obj\Debug\PersonalizedWebPage.dll
 C:\Users\Admin\Source\Repos\WebPortfolio\PersonalizedWebPage\PersonalizedWebPage\obj\Debug\PersonalizedWebPage.pdb

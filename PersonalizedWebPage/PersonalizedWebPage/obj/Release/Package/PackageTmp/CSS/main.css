@@ -4,6 +4,13 @@
     margin: 0;
 }
 
+::selection {
+  background: #ff7e22; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ff7e22; /* Gecko Browsers */
+}
+
 body {
     margin: 0;
     padding: 0;
