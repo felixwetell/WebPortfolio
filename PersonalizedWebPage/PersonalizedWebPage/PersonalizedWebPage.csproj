@@ -176,7 +176,10 @@
     <Content Include="font-awesome\scss\_variables.scss" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="favicons\manifest.json" />
+    <None Include="Properties\PublishProfiles\felixwetell - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\felixwetell - Web Deploy %283%29.pubxml" />
     <None Include="Properties\PublishProfiles\felixwetell - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\wetell-azure-test-2 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
