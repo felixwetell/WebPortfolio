@@ -28,6 +28,9 @@
 
     @RenderSection("stylesheets", false)
 
+    <script>
+        document.title = document.getElementById("page-ID").getAttribute("name").toUpperCase() + " - Felix Wetell";
+    </script>
 </head>
 
 <body>
@@ -69,8 +72,5 @@
     <script src="~/js/nav.js"></script>
     <script src="~/js/hamburger.js"></script>
 
-    <script>
-        document.title = document.getElementById("page-ID").getAttribute("name").toUpperCase() + " - Felix Wetell";
-    </script>
 </body>
 </html>
