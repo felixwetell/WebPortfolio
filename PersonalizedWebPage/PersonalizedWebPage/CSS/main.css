@@ -5,10 +5,11 @@
 }
 
 ::selection {
-  background: #ff7e22; /* WebKit/Blink Browsers */
+    background: #ff7e22; /* WebKit/Blink Browsers */
 }
+
 ::-moz-selection {
-  background: #ff7e22; /* Gecko Browsers */
+    background: #ff7e22; /* Gecko Browsers */
 }
 
 body {
@@ -65,13 +66,13 @@ a:-webkit-any-link {
             font-weight: bold;
         }
 
-    #logo {
-        background-color: rgba(0,0,0,0);
-    }
-
-        #logo img {
+        .nav-bar-item img {
             height: 100%;
             width: auto;
+        }
+
+        #logo {
+            background-color: #424242;
         }
 }
 
@@ -85,7 +86,7 @@ a:-webkit-any-link {
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #333;
+        background-color: #424242;
     }
 
         ul.hamburger-menu li {
@@ -127,7 +128,7 @@ a:-webkit-any-link {
 
         ul.hamburger-menu.responsive {
             position: relative;
-            z-index : 1;
+            z-index: 1;
         }
 
             ul.hamburger-menu.responsive li.icon {
