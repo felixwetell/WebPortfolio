@@ -16,7 +16,6 @@
     }
 
 #link-box {
-
 }
 
 i {
@@ -24,6 +23,10 @@ i {
     transition-duration: 0.3s;
 }
 
-i:hover {
-    color: #7f8c8d;
+    i:hover {
+        color: #7f8c8d;
+    }
+
+a b:hover {
+    opacity: 0.7;
 }
