@@ -56,6 +56,11 @@ a:-webkit-any-link {
         float: left;
         color: #efefef;
         background-color: #646464;
+        transition-duration: 0.3s;
+    }
+
+    .nav-bar-item:hover {
+        opacity: 0.9;
     }
 
         .nav-bar-item .item-text {
@@ -71,9 +76,12 @@ a:-webkit-any-link {
             width: auto;
         }
 
-        #logo {
-            background-color: #424242;
-        }
+    #logo {
+        background-color: #424242;
+    }
+    #logo:hover {
+        opacity: 0.9;
+    }
 }
 
 @media (max-width: 527px) {

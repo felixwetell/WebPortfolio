@@ -3,10 +3,12 @@
 <html>
 <head>
     <link href="~/css/main.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="~/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <meta name="viewport" content="width=device-width" />
     <meta charset="utf-8" />
+
+    <title>@ViewBag.Title - Felix Wetell</title>
 
     <link rel="apple-touch-icon" sizes="57x57" href="~/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="~/favicons/apple-icon-60x60.png">
@@ -28,9 +30,6 @@
 
     @RenderSection("stylesheets", false)
 
-    <script>
-        document.title = document.getElementById("page-ID").getAttribute("name").toUpperCase() + " - Felix Wetell";
-    </script>
 </head>
 
 <body>
