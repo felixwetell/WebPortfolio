@@ -48,7 +48,7 @@ a:-webkit-any-link {
     }
 
     .nav-bar-item {
-        width: calc(25% - 20px);
+        width: calc(20% - 20px);
         height: calc(100% - 20px);
         padding: 10px;
         text-align: center;

@@ -23,5 +23,10 @@ namespace PersonalizedWebPage.Controllers
         {
             return View();
         }
+
+        public ActionResult Projects()
+        {
+            return View();
+        }
     }
 }
